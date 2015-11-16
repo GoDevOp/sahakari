@@ -1,0 +1,29 @@
+
+
+.contact p, label, legend {  }
+
+
+.contact { display: block; width: auto; margin: 5px 0; padding: 0px; border: none;  }
+
+/* Form style */
+
+.contact label { display: none; float: none; height:0px; }
+.contact input, textarea, select { width: 171px; padding: 10px 13px 11px 13px; border: 1px solid #d8d8d8; margin: 0px 20px 0px 0; font: 12px "Open Sans", Arial, Helvetica, sans-serif; color:#888;  float:left; -webkit-box-shadow:0 1px 0 rgba(180, 180, 180, 0.1); -moz-box-shadow:0 1px 0 rgba(180, 180, 180, 0.1); box-shadow:0 1px 0 rgba(180, 180, 180, 0.1); -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; -webkit-appearance: none;}
+.contact input.third { margin: 0px 0px 0px 0 !important; }
+.contact textarea { width: 610px !important; margin-top:1px; margin-bottom:4px; margin-right:0px !important;}
+.contact #subject { width: 292px !important; }
+.contact input:focus, textarea:focus, select:focus { background: #fff; -webkit-box-shadow:0 1px 0 rgba(180, 180, 180, 0.2); -moz-box-shadow:0 1px 0 rgba(180, 180, 180, 0.2) ; box-shadow:0 1px 0 rgba(180, 180, 180, 0.2); border: 1px solid #888; }
+.contact input:hover, textarea:hover, select:hover { background: #fff; -webkit-box-shadow:0 1px 0 rgba(180, 180, 180, 0.2) !important; -moz-box-shadow:0 1px 0 rgba(180, 180, 180, 0.2) !important; box-shadow:0 1px 0 rgba(180, 180, 180, 0.2) !important; border: 1px solid #888 !important; }
+.contact input.submit { display:block; text-transform:uppercase; cursor:pointer; position:relative; padding:7px 13px 7px 12px !important; margin:16px 0 18px 0; font-weight:700; font-family:'Open Sans', Arial, Helvetica, sans-serif; color:#fff; text-align:center; font-size:12px; line-height:20px; -webkit-transition: all 0.1s ease-in-out 0s; background-color:#65b819; width:auto !important; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; border:0px;}
+.contact input.submit:hover {  background-color:#65b819; -webkit-box-shadow:none !important; -moz-box-shadow:none !important; box-shadow:none !important; border: 0px solid #888 !important; }
+
+
+.contact fieldset { padding-left:0px;}
+
+.contact span.required { padding-left:28px; background:url(../images/bg-bullet.png) no-repeat 12px 5px; margin-left:-28px; }
+
+#message { margin: 10px 0 20px 0; padding: 0; }
+
+.error_message { display: block; background: #f1adc5; padding: 10px 13px 11px 13px; color:#a11c4b; border: 1px solid #a11c4b;  }
+
+.loader { padding: 22px 0 0 10px; }

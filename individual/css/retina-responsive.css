@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* Retina Ready Images */
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+#status {background-image:url(../images/bg-loading@2x.png); background-repeat:no-repeat; background-position:center; background-size:98px 106px; }
+
+h1#logo a { background:url(../images/bg-logo@2x.jpg) no-repeat; background-size:275px 75px; }
+
+.headline { background:url(../images/bg-headline@2x.png) 0 50% repeat-x; background-size:1px 1px; }
+
+.pointer { background:url(../images/bg-pointer@2x.png) center no-repeat; background-size:9px 12px;}
+.email { background:url(../images/bg-mail@2x.png) center no-repeat; background-size:12px 10px; }
+.phone { background:url(../images/bg-phone@2x.png) center no-repeat; background-size:12px 12px; }
+.time { background:url(../images/bg-time@2x.png) center no-repeat; background-size:12px 12px; }
+#calendar { background:url(../images/bg-calendar@2x.png) no-repeat 50% 48% #ca2b63; background-size:11px 12px; }
+#user { background:url(../images/bg-user@2x.png) no-repeat 50% 48% #ca2b63; background-size:12px 12px; }
+#plus { background:url(../images/bg-plus@2x.png) no-repeat 50% 48% #ca2b63; background-size:11px 11px; }
+
+#accordion .ui-accordion-header { background:url(../images/buttons/bg-close-small@2x.png) no-repeat right 15px #fff; background-size:26px 12px; }
+#accordion .ui-accordion-header-active { background:url(../images/buttons/bg-open-small@2x.png) no-repeat right 18px #fff; background-size:28px 8px; }
+
+.img-cover .icons.mail { background:url(../images/buttons/bg-envelope@2x.png) 50% 50% no-repeat; background-size:24px 16px; }
+.img-cover .icons.link { background:url(../images/buttons/bg-link@2x.png) 50% 50% no-repeat; background-size:21px 23px; }
+.img-cover .icons.zoom { background:url(../images/buttons/bg-zoom@2x.png) 50% 50% no-repeat; background-size:25px 25px; }
+.img-cover .icons.video { background:url(../images/buttons/bg-video@2x.png) 50% 50% no-repeat; background-size:24px 16px; }
+
+.xing {background:url(../images/bg-xing@2x.png) no-repeat; background-size:24px 24px; }
+.google {background:url(../images/bg-googleplus@2x.png) no-repeat; background-size:24px 24px; }
+.twitter {background:url(../images/bg-twitter@2x.png) no-repeat; background-size:24px 24px; }
+.facebook {background:url(../images/bg-facebook@2x.png) no-repeat; background-size:24px 24px; }
+.pinterest {background:url(../images/bg-pinterest@2x.png) no-repeat; background-size:24px 24px; }
+.instagram {background:url(../images/bg-instagram@2x.png) no-repeat; background-size:24px 24px; }
+.vimeo {background:url(../images/bg-vimeo@2x.png) no-repeat; background-size:24px 24px; }
+.skype {background:url(../images/bg-skype@2x.png) no-repeat; background-size:24px 24px; }
+.dribble {background:url(../images/bg-dribble@2x.png) no-repeat; background-size:24px 24px; }
+
+.fancybox-close {background: url(../images/bg-close@2x.png) center no-repeat; background-size:18px 18px;}
+.fancybox-prev span {background: url(../images/bg-prev@2x.png) center no-repeat; background-size:15px 22px;}
+.fancybox-next span {background: url(../images/bg-next@2x.png) center no-repeat; background-size:15px 22px;}
+}
+
+
+@media only screen and (max-width: 1089px) {
+.container { padding:30px 0px; -webkit-box-shadow:0 0 0 rgba(180, 180, 180, 0); -moz-box-shadow:0 0 0 rgba(180, 180, 180, 0) ; box-shadow:0 0 0 rgba(180, 180, 180, 0);}
+header .container {padding:16px 0px 17px 0px; height:75px; }
+.wrapper {width: 100%; background-color:#fff; -webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.12); -moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.12) ; box-shadow:0 1px 0 rgba(0, 0, 0, 0.12); }
+/*.responsive { -webkit-box-shadow:0 0px 0 rgba(180, 180, 180, 0); -moz-box-shadow:0 0px 0 rgba(180, 180, 180, 0) ; box-shadow:0 0px 0 rgba(180, 180, 180, 0);}*/
+}
+
+
+/* Standard 960 or larger (browsers) */
+@media only screen and (min-width: 960px) {
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+ul#nav li a { margin:0px 0px 0px 5px; }
+
+.container { width:768px; position:relative; }
+.col1-1 { width:748px; margin:0px 10px; }
+.col1-2 { width:364px; margin:0px 10px; float:left; }
+.col1-3 { width:236px; margin:0px 10px; float:left; }
+.col2-3 { width:492px; margin:0px 10px; float:left; }
+.col1-4 { width:172px; margin:0px 10px; float:left; }
+.col3-4 { width:556px; margin:0px 10px; float:left; }
+.col1-6 { width:108px; margin:0px 10px; float:left; }
+
+.videos {width:556px !important; height:310px !important; }
+
+.flexslider h3 {font-size:20px; padding:10px 10px 12px 0 }
+.flex-direction-nav { margin-top:8px;}
+
+.element {width:236px !important; display:block; }
+.responsive-folio { overflow:visible !important }
+
+.responsive .col1-4 { width:236px }
+.responsive .col3-4 { width:492px }
+.contact input, textarea, select { width: 122px !important; margin: 0px 21px 0px 0;}
+.contact textarea { width: 464px !important; }
+
+#map {width:748px !important; height:350px !important; }
+
+.js #nav { display: none; }
+.js .selectnav { display: block; margin:15px 10px; color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:13px; font-weight:600; line-height:13px; text-decoration:none; text-transform:uppercase; width:180px !important;}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container { width:440px; position:relative; overflow:visible !important}
+.col1-1, .col1-3, .col2-3, .col3-4 { width:420px; margin:0px 10px; }
+aside {display:none; }
+
+.videos {width:420px !important; height:235px !important; }
+
+.js #nav { display: none; }
+.js .selectnav { display: block; margin:15px 10px; color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:13px; font-weight:600; line-height:13px; text-decoration:none; text-transform:uppercase; width:140px !important;}
+
+.element {width:200px !important; display:block; }
+.responsive-folio { overflow:visible !important }
+
+.col1-4 { width:200px }
+.force-break { clear:both; height:15px; position:relative }
+.responsive .col3-4 { width:200px }
+.contact input, textarea { width: 172px !important; margin: 0px 0px 0px 0; float:none; display:block; margin-bottom:5px}
+.contact textarea { width: 172px !important; }
+
+.option-set { float:none}
+h3.alignleft {float:none; }
+
+#accordion {margin-top:35px; }
+
+#map {width:420px !important; height:350px !important; }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+h1#logo { display:block; position:relative; margin-left:10px; }
+header .container {padding:16px 0px 17px 0px; height:auto; }
+#empty-area {display:none }
+
+#fixed { height:auto; position:relative; width:100% }
+.container { width:320px; position:relative; overflow:visible !important}
+
+.navpoints .flex-direction-nav .flex-next {right: 10px; }
+.navpoints .flex-direction-nav .flex-prev {right: 35px; }
+.flex-direction-nav { margin-top:15px;}
+
+.col1-1, .col1-3, .col2-3, .col3-4 { width:300px; margin:0px 10px; }
+aside {display:none; }
+
+.videos {width:300px !important; height:175px !important; }
+
+.js #nav { display: none; }
+.js .selectnav { display: block; margin:18px 10px 0px 10px; color:#a5a5a5; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:13px; font-weight:600; line-height:13px; text-decoration:none; text-transform:uppercase; width:300px !important }
+nav.alignright {display:block; float:none; }
+
+.element {width:300px; display:block; }
+.responsive-folio .col1-4 {width:140px !important; }
+.responsive-folio { overflow:visible !important }
+
+.responsive .col1-4 { width:300px }
+.responsive .col3-4 { width:300px }
+.contact input, textarea { width: 272px !important; margin: 0px 0px 0px 0; float:none; display:block; margin-bottom:5px}
+.contact textarea { width: 272px !important; }
+
+.option-set {margin-left:10px !important; margin-top:-10px !important; float:none}
+h3.alignleft {float:none; }
+
+#accordion {margin-top:35px; }
+
+#map {width:300px !important; height:250px !important; }
+}
